@@ -1,0 +1,32 @@
+{
+  "bot-account": {
+    "username": "admin",
+    "password": "0606218836",
+    "type": "mojang"
+  },
+  "server": {
+    "ip": "funsurvive.aternos.me",
+    "port": 25062,
+    "version": "1.12.1"
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "0606218836"
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 120,
+      "messages": [
+        "Hello world!",
+        "AFK Bot Online",
+        "Testing chat messages"
+      ]
+    }
+  }
+}
